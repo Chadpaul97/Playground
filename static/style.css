@@ -1,0 +1,15 @@
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 80px;
+}
+
+#mainpage{
+    height: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
