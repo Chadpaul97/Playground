@@ -15,11 +15,11 @@ def mutiple_boxes(num_of_boxes):
     boxes = int(num_of_boxes)
     return render_template('play2.html', boxes=boxes)
 
-@app.route("/play/<num_of_boxes>/<color>")
+@app.route("/play/<num_of_boxes>/<string:color>")
 def coloring_boxes(num_of_boxes,color):
     boxes = (int(num_of_boxes))
-    colors = color
-    return render_template('play3.html',boxes=boxes,colors=colors)
+    color_change = color
+    return render_template('play3.html',boxes=boxes,color_change=color_change)
 
 
 
